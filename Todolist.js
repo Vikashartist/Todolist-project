@@ -18,7 +18,7 @@
      listItem.addEventListener("click",function(){
        this.classList.toggle("done");
      });
-     listItem.addEventListener("click",function(){
+     listItem.addEventListener("dblclick",function(){
        listItem.remove();
        console.log("remove was clicked"); 
      });
